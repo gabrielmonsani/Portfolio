@@ -7,7 +7,7 @@
     margin: 0 px; /* Adiciona uma margem menor entre as divs */
     padding: 39px 39px 100px; /* Adiciona um espaçamento interno para a borda */
     text-align: center; /* Centraliza o conteúdo horizontalmente */
-    
+
 }
 
 .container:first-child {
@@ -44,6 +44,28 @@ h2 {
 
 .square {
     width: 350px; /* Largura da div quadrada */
-    height: 550px; /* Altura da div quadrada */
+    height: 700px; /* Altura da div quadrada */
     background-color: #0db2c3; /* Cor de fundo da div quadrada */
+}
+
+.pulse-button {
+    position: absolute; /* Define a posição absoluta */
+    top: 65%; /* Ajusta a posição vertical */
+    left: 40%; /* Ajusta a posição horizontal */
+    font-weight: bold;
+    width: 240px;
+    height: 70px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid #0db2c3;
+    border-radius: 100px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease; 
+}
+
+.pulse-button:hover {
+    background-color: #0db2c3;
 }
