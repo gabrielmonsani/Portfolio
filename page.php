@@ -1,5 +1,5 @@
 <?php
-include 'Header.phtml';
+include_once 'Header.phtml';
 ?>
 
 <div class="container">
@@ -25,5 +25,5 @@ include 'Header.phtml';
 </div>
 
 <?php
-include 'Footer.phtml';
+include_once 'Footer.phtml';
 ?>
